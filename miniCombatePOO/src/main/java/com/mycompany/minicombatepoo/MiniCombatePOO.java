@@ -34,7 +34,7 @@ public class MiniCombatePOO {
         Monstruo monstruo = new Monstruo("Goblin", 15, 4);
         System.out.println("Inicio del combate: " + jugador.getNombre() + " y " + monstruo.getTipo());
         int menu = 0;
-
+        
 //Menu para eligír un opción de los tres posibles(numero introduce por pantalla)
         while (jugador.getHp() > 0 && monstruo.getHp() > 0 && menu != 3) {
             System.out.println("¿Que queres haser? 1.Atacar 2.Curarte(+2HP) 3.Huir");
